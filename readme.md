@@ -3,6 +3,7 @@ Api Docs.
 I have used POSTMAN to run these apis
 
 1.Displaying members 
+
     Request type  = GET
     
     Input Url
@@ -11,6 +12,7 @@ I have used POSTMAN to run these apis
       {"success": "true", "data": [{"uid": 1, "firstname": "Tom", "lastname": "Harry", "email": "tom@gmail.com", "role": 1, "phone": 1234567899}, {....}]}
 
 2.Adding a member 
+
     Request type  = POST
 
     Input Url
@@ -27,6 +29,7 @@ I have used POSTMAN to run these apis
       {"success": "true", "data": {"uid": 13, "firstname": "Amit", "lastname": "Singh", "phone": 1234567899, "email": "amit@gmail.com", "role": 2}}
 
 3.Updating a member 
+
     Request type = PATCH/POST/PUT
     
     Input Url
@@ -41,6 +44,7 @@ I have used POSTMAN to run these apis
       {"success": "true", "data": {"uid": 13, "firstname": "Sam", "lastname": "Sahoo"}}
 
 4.Deleting a member 
+
     Request type  = GET
     
     Input Url
