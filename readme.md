@@ -4,6 +4,7 @@ I have used POSTMAN to run these apis
 
 1.Displaying members 
     Request type  = GET
+    
     Input Url
       http://127.0.0.1:8000/instapi/display
     OUTPUT
@@ -26,7 +27,8 @@ I have used POSTMAN to run these apis
       {"success": "true", "data": {"uid": 13, "firstname": "Amit", "lastname": "Singh", "phone": 1234567899, "email": "amit@gmail.com", "role": 2}}
 
 3.Updating a member 
-    Request type  = PATCH/POST/PUT
+    Request type = PATCH/POST/PUT
+    
     Input Url
       http://127.0.0.1:8000/instapi/update
     Input POST data format
@@ -40,10 +42,10 @@ I have used POSTMAN to run these apis
 
 4.Deleting a member 
     Request type  = GET
+    
     Input Url
-    http://127.0.0.1:8000/instapi/delete?uid=<uid>
+        http://127.0.0.1:8000/instapi/delete?uid=<uid>
     Input Data
-    uid=1
-
+        uid=1
     OUTPUT
-    {"success" : "true"}
+        {"success" : "true"}
